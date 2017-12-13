@@ -56,7 +56,7 @@
 
 
         <!-- pattern layout actually uses location, so we need to include it -->
-        <AsyncLogger name="com.log4j2.Log4j2Testing" level="fatal" additivity="false" includeLocation="true">
+        <AsyncLogger name="com.log4j2" level="fatal" additivity="false" includeLocation="true">
             <AppenderRef ref="RandomAccessFile"/>
         </AsyncLogger>
 
